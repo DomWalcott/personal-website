@@ -1,0 +1,143 @@
+body {
+    background-color: #B8CFB3;
+    color: #FEFAF3;
+}
+
+.averia-serif-libre-bold {
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.superDiv{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top:50px;
+    align-items:center;
+    width: 100%;
+    row-gap: 30px;
+}
+.headerSection{
+    position: relative;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding-top: 30px;
+    gap: 60px;
+
+}
+
+.aboutMe{
+    position: relative;
+    padding: 30px;
+    width: 70%;
+    border: 2px solid antiquewhite;
+    justify-content: center;
+}
+.techStack{
+    position: relative;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: 2px solid antiquewhite;
+    padding: 30px;
+}
+
+.projectSection{
+    position: relative;
+    width: 70%;
+    border: 2px solid antiquewhite;
+    display: grid;
+    grid-template-columns: 20% auto;
+    padding: 30px;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.projectSection img{
+    border-radius: 15px;
+}
+.projectImages{
+    filter: sepia(60%) saturate(60%) contrast(0.9) brightness(1.05);
+    transition: filter 200ms ease;
+}
+.projectImages:hover{
+    filter:none;
+}
+h6{
+
+    text-decoration: underline;
+}
+.projectTitle{
+    border-right: 2px solid antiquewhite;
+}
+
+#mainImage{
+    width: 310px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+span{
+    font-size: 1.2em;
+}
+p{
+    font-size: large;
+}
+
+#aboutMeTitle{
+    position:relative;
+
+}
+
+.navbar{
+    position: fixed;
+    z-index: 10;
+    right:40px;
+    display: flex;
+    flex-direction:column;
+    gap:5px;
+    padding: 40px 20px 10px;
+
+}
+.navbar a{
+    display: block;
+    padding: 10px 14px;
+}
+.nameOrTitle{
+    font-weight: bold;
+    font-size:70pt;
+}
+
+#socials{
+    position: fixed;
+    left:40px;
+    bottom: 0;
+    display: flex;
+    flex-direction:column;
+    gap:20px;
+    padding-bottom: 50px;
+    
+}
+.contactSection{
+        position: relative;
+    align-items: center;
+    align-content: center;
+    border: 2px solid antiquewhite;
+    padding: 30px;
+}
+
+.footer{
+    position: relative;
+    align-items: right;
+    align-content: right;
+    font-size:small;
+    padding: 50px;
+    padding-left:65%;
+}
