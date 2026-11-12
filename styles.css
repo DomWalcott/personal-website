@@ -187,6 +187,7 @@ span{
         position: absolute;
         display: flex;
         gap: 50px;
+        padding-left: 2em;
     }
 }
 
