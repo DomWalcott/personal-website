@@ -186,8 +186,8 @@ span{
     .navbar {
         position: absolute;
         display: flex;
-        gap: 50px;
-        padding-left: 2em;
+        gap: 30px;
+        padding-left: 1.5em;
     }
 }
 
